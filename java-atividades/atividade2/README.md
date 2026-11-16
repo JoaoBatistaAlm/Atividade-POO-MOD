@@ -322,6 +322,118 @@ Classe Bicicleta:
 8. Execute os métodos e apresente as informações de cada objeto no terminal.
 UML: represente as três classes em um diagrama, identificando atributos, métodos, modificadores de visibilidade e relacionamentos de herança.
 
+## Atividade 11 — Estilo FCC — 2020
+Na programação orientada a objetos, uma classe pode ser compreendida como:
+a)	Uma instância específica criada durante a execução do programa.
+b)	Um modelo que define atributos e comportamentos de objetos.
+c)	Uma variável utilizada exclusivamente para armazenar números.
+d)	Um banco de dados relacional.
+e)	Um algoritmo que não possui atributos.
 
+## Atividade  12 — Estilo FGV — 2023
+Considere um sistema bancário em que a classe ContaBancaria possui o atributo saldo, cujo valor somente pode ser alterado por meio dos métodos depositar() e sacar().
+Essa abordagem representa principalmente o conceito de:
+a)	Herança.
+b)	Polimorfismo.
+c)	Encapsulamento.
+d)	Sobrecarga.
+e)	Generalização.
+
+## Atividade  13 — Estilo VUNESP — 2022
+Em um sistema de gerenciamento escolar, as classes Professor e Aluno compartilham atributos como nome e cpf, definidos em uma classe Pessoa.
+Esse relacionamento caracteriza:
+a)	Composição.
+b)	Dependência.
+c)	Associação simples.
+d)	Agregação.
+e)	Herança.
+
+## Atividade 14 — Estilo Instituto AOCP — 2024
+Em um sistema orientado a objetos, as classes Cachorro e Gato apresentam implementações diferentes do método emitirSom().
+O conceito que permite que a mesma operação apresente comportamentos diferentes conforme o objeto é denominado:
+a)	Polimorfismo.
+b)	Normalização.
+c)	Decomposição funcional.
+d)	Persistência de dados.
+e)	Indexação.
+
+## Atividade 15 — Estilo Cebraspe — 2021
+A Unified Modeling Language (UML) é amplamente utilizada na modelagem de sistemas orientados a objetos.
+Sobre a UML, assinale a alternativa correta.
+a)	É uma linguagem de programação utilizada para substituir Java e Python.
+b)	É utilizada exclusivamente para criar bancos de dados relacionais.
+c)	É uma ferramenta destinada apenas à construção de interfaces gráficas.
+d)	É uma linguagem visual padronizada utilizada para especificar, visualizar e documentar sistemas.
+e)	É um compilador que transforma diagramas diretamente em programas executáveis.
+
+## Atividade 16 — Estilo FCC — 2022
+Em um diagrama de classes UML, os símbolos +, - e # representam, respectivamente:
+a)	Privado, público e protegido.
+b)	Público, privado e protegido.
+c)	Protegido, público e privado.
+d)	Público, protegido e privado.
+e)	Privado, protegido e público.
+
+## Atividade 17 — Estilo FGV — 2023
+Considere a seguinte representação de uma classe UML:
+Aluno
+- nome : String
+- matricula : int
++ getNome() : String
++ estudar() : void
+Com base nessa representação, é correto afirmar que:
+a)	Os atributos nome e matricula são públicos.
+b)	O método estudar() retorna obrigatoriamente um texto.
+c)	Os atributos são privados e os métodos apresentados são públicos.
+d)	A classe não possui atributos.
+e)	O método getNome() é privado e não retorna valores.
+
+## Atividade 18 — Estilo VUNESP — 2024
+Em um sistema de biblioteca, uma classe Usuario está relacionada à classe Emprestimo. Um usuário pode realizar vários empréstimos, enquanto cada empréstimo pertence a um único usuário.
+Em um diagrama de classes UML, a multiplicidade mais adequada para esse relacionamento, considerando que um usuário pode não ter realizado nenhum empréstimo, é:
+a)	1 para 0..*.
+b)	1 para 1.
+c)	0..1 para 0..1.
+d)	* para *, obrigatoriamente.
+e)	1 para 1..1, exclusivamente.
+
+## Atividade 19 — Estilo Instituto Quadrix — 2023
+A UML possui diferentes tipos de diagramas utilizados para representar aspectos estruturais e comportamentais dos sistemas.
+Assinale a alternativa que relaciona corretamente os diagramas às suas finalidades.
+a)	Diagrama de classes: representa exclusivamente a sequência temporal de mensagens.
+b)	Diagrama de casos de uso: representa apenas os atributos privados das classes.
+c)	Diagrama de sequência: representa exclusivamente a estrutura física do banco de dados.
+d)	Diagrama de atividades: representa somente a herança entre classes.
+e)	Diagrama de casos de uso: representa funcionalidades e atores; diagrama de classes: representa classes e relacionamentos; diagrama de sequência: representa interações ao longo do tempo.
+
+## Atividade 20 - Considere o código Java a seguir:
+
+class Animal {
+    public void emitirSom() {
+        System.out.println("Som de animal");
+    }
+}
+
+class Cachorro extends Animal {
+    @Override
+    public void emitirSom() {
+        System.out.println("Au au!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Cachorro cachorro = new Cachorro();
+        cachorro.emitirSom();
+    }
+}
+
+# Com base nos conceitos de Programação Orientada a Objetos e no funcionamento do código apresentado, assinale a alternativa correta.
+
+a) O código apresenta erro de compilação, pois uma subclasse não pode possuir um método com o mesmo nome da superclasse.
+b) A classe Cachorro herda da classe Animal e sobrescreve o método emitirSom(), fazendo com que a mensagem "Au au!" seja exibida.
+c) A palavra-chave extends é utilizada para criar objetos da classe Animal.
+d) A anotação @Override impede que o método emitirSom() seja executado na subclasse.
+e) O programa exibirá a mensagem "Som de animal", pois os métodos da superclasse sempre possuem prioridade sobre os métodos das subclasses.
 
 
